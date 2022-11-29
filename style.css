@@ -4,3 +4,137 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+/* .shahrom */
+
+.shahrom-container{
+    margin-top: 100px;
+}
+
+.shahrom-center{
+    width: 85%;
+    margin: auto;
+}
+.shahrom-2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:100px;
+}
+.shahrom-1 h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    margin: 60px 0px;
+
+}
+.shahrom-3 h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin: 30px 0px;
+}
+.shahrom-3 p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+}
+.shahrom-4{ 
+   background: #F7F7F7;
+}
+.shahrom-5 h2{
+    font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+color: #000000;
+}
+.shahrom-5 h1{
+    font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+
+color: #000000;
+}
+.shahrom-11{
+    display: flex;
+    justify-content: space-between;
+}
+.sh-ul ul li a{
+    text-decoration: none;
+    opacity: 0.8;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+}
+.sh-about ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #18216D;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #000000;
+    padding: 5px 20px;
+   
+}
+.sh-ul ul li{
+    list-style:none ;
+}
+
+.sh-ul ul li a:hover{
+   background-color:grey;
+   border-radius: 10px;
+   color:blue;
+}
+.sh-about ul li a:hover{
+   background-color:grey;
+   border-radius: 10px  ;
+   color: blue;
+}
+.sh-ul ul li{
+    list-style:none ;
+}
+.sh-about ul li{
+    list-style:none ;
+}
+.sh3 h1{
+    padding: 10px;
+    font-weight: 700;
+   font-size: 18px;
+   line-height: 23px;
+   color: #000000;
+
+}
+.shahrom-11{
+   padding-top :50px;
+   padding-bottom: 20px;
+}
+.sh123{
+   margin : 50px 0px;
+}
+.sha-1{
+    display: flex;
+}
+.sh-about ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sha-1{
+    padding-bottom: 50px;
+}
+.sh-2{
+    width: 50%;
+}
+.sh-about{
+    width: 50%;
+}
