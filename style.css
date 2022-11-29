@@ -5,6 +5,152 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.md-main{
+    width: 100%;
+}
+.md-center{
+    width: 80%;
+    margin: auto;
+}
+.md-head{
+
+
+}
+.md-head h1{
+    margin-top: 250px;
+    margin-bottom: 112px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+}
+.md-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 260px;
+   
+}
+.md-icon{
+    width: 23%;
+    height: 50vh;
+
+}
+.md-icon h1{
+    font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+
+color: #000000;
+    margin: 50px 0px;
+}
+.md-icon p{
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #000000;
+
+opacity: 0.5;
+}
+.md-icon img:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 4px 4px;
+}
+.md-icon a{
+   
+    text-decoration: none;
+    margin-top: 20%;
+    color: red;
+ 
+}
+.md-icon a:hover{
+    color: green;
+    background-color: yellow;
+}
+.md-icon h3{
+    margin-top: 20%;
+}
+.md-join{
+    display: flex;
+    justify-content: space-between;
+}
+.md-com{
+    width: 25%;
+}
+.md-com h1{
+    font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+color: #000000;
+}
+.md-com p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+    opacity: 0.5;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.md-com button{
+    padding: 10px 50px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.md-com button:hover{
+    background-color: white;
+    border: 1px solid red;
+    cursor: pointer;
+    color: black;
+}
+.md-luci{
+    width: 23%;
+}
+.md-luci h1{
+    font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+margin: 20px 0px;
+color: #000000;
+}
+.md-luci h6{
+    margin: 10px 0px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #3F3D56;
+}
+.md-luci a{
+    text-decoration: none;
+
+}
+.md-luci h1:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.md-luci h6:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.md-luci h3:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.md-luci h3{
+    margin: 40px 0px;
+    color: red;
+}
+
 /* .shahrom */
 
 .shahrom-container{
