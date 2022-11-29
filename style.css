@@ -10,6 +10,7 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
+    background-size:  100% 100%;
     background-repeat: no-repeat;
     background-image: url(./images/AAAA-i1.png);
 }
@@ -20,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     padding: 30px 0px;
+    align-items: center;
     
 }
 .Ali-navbar{
@@ -29,6 +31,11 @@
     top: 0; */
     z-index: 1;
     
+}
+.{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Ali-saf{
     width: 76px;
@@ -57,7 +64,7 @@
     justify-content: center;
     position:absolute;
     top: 450px;
-    right: 600px;
+    right: 650px;
     width: 50%;
     height: 65vh;
     background-color: #FFFFFF;
@@ -145,15 +152,12 @@ padding: 10px 0px 20px;
     width: 100%;
 }
 .md-center{
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
-.md-head{
 
-
-}
 .md-head h1{
-    margin-top: 250px;
+    margin-top: 350px;
     margin-bottom: 112px;
     font-weight: 700;
     font-size: 36px;
@@ -173,22 +177,17 @@ padding: 10px 0px 20px;
 }
 .md-icon h1{
     font-weight: 700;
-font-size: 22px;
-line-height: 28px;
-
-color: #000000;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
     margin: 50px 0px;
 }
 .md-icon p{
     font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-
-color: #000000;
-
-opacity: 0.5;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
 }
 .md-icon img:hover{
     background-color: red;
@@ -199,16 +198,19 @@ opacity: 0.5;
 .md-icon a{
    
     text-decoration: none;
-    margin-top: 20%;
+    /* margin-top: 20%; */
     color: red;
+    padding: 10px;
+    border-radius: 10px;
  
 }
 .md-icon a:hover{
     color: green;
-    background-color: yellow;
+    background-color: lightgray;
 }
 .md-icon h3{
     margin-top: 20%;
+    
 }
 .md-join{
     display: flex;
@@ -219,9 +221,9 @@ opacity: 0.5;
 }
 .md-com h1{
     font-weight: 700;
-font-size: 36px;
-line-height: 45px;
-color: #000000;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
 }
 .md-com p{
     font-weight: 400;
@@ -232,36 +234,46 @@ color: #000000;
     
     opacity: 0.5;
     margin-top: 30px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .md-com button{
     padding: 10px 50px;
     background-color: red;
     color: white;
     border: none;
+    margin-top: 30px;
+    border-radius: 10px;
 }
 .md-com button:hover{
-    background-color: white;
+    background-color: lightslategray;
     border: 1px solid red;
     cursor: pointer;
     color: black;
+    border: none;
+ 
+ 
 }
 .md-luci{
     width: 23%;
 }
+.md-luci img{
+    width: 100%;
+}
 .md-luci h1{
     font-weight: 700;
-font-size: 24px;
-line-height: 30px;
-margin: 20px 0px;
-color: #000000;
+    font-size: 24px;
+    line-height:10px;
+    padding: 15px 0px;
+    margin: 20px 0px;
+    color: #000000;
 }
 .md-luci h6{
     margin: 10px 0px;
     font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #3F3D56;
+    padding: 8px 0px;
+    font-size: 14px;
+    line-height: 10px;
+    color: #3F3D56;
 }
 .md-luci a{
     text-decoration: none;
@@ -284,6 +296,7 @@ color: #3F3D56;
 }
 .md-luci h3{
     margin: 40px 0px;
+    padding: 10px 0px;
     color: red;
 }
 
